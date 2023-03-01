@@ -9,10 +9,10 @@ jobs:
     - name: install dependencies
       run: npm ci
     - name: lint
-      run: npm lint
+      run: npm run lint
     - name: test
-      run: npm test
+      run: npm run  test
     - name: build
-      run: npm build
+      run: npm run build
     - name: deploy
       run: echo  "deploying"
